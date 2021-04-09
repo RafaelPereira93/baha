@@ -1,0 +1,313 @@
+#resume h2 {
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2em;
+}
+#resume h2:after {
+  content: "";
+  display: block;
+  width: 6%;
+  height: 1px;
+  background-color: #25ca7f;
+  margin: 15px auto 0;
+}
+.box-resume {
+  margin-top: 80px;
+}
+.box-resume .education h3,
+.box-resume .experience h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8em;
+}
+.box-resume .education h3:after,
+.box-resume .experience h3:after {
+  content: "";
+  display: block;
+  width: 25%;
+  height: 1px;
+  background-color: #25ca7f;
+  margin: 8px auto 0;
+}
+.box-resume .experience .content-experience {
+  background-color: #070708;
+  padding: 20px 20px 20px 60px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.box-resume .experience .content-experience h4 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+.box-resume .experience .content-experience h4:before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: -28px;
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #25ca7f;
+}
+.box-resume .experience .content-experience .data-experience {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #25ca7f;
+  font-size: 0.9em;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.box-resume .experience .content-experience .data-experience i {
+  margin-right: 5px;
+}
+.box-resume .experience .content-experience p {
+  color: #fff;
+  margin-top: 10px;
+  font-weight: 400;
+}
+.box-resume .experience .block-experience {
+  position: relative;
+  padding: 10px 0;
+}
+.box-resume .experience .block-experience:before {
+  content: "";
+  position: absolute;
+  left: -35px;
+  width: 2px;
+  height: 80%;
+  background-color: #25ca7f;
+}
+.box-resume .experience .block-experience:after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: #070708;
+  border: 2px solid #25ca7f;
+  border-radius: 50%;
+  position: absolute;
+  top: 14px;
+  left: -42px;
+  transition: 0.3s;
+}
+.box-resume .experience .block-experience:hover:after {
+  background-color: #25ca7f;
+}
+.wrapper-skills {
+  margin-top: 100px;
+}
+.wrapper-skills .box-skills {
+  padding: 20px 40px;
+  margin-top: 50px;
+  background-color: #070708;
+  border-radius: 10px;
+}
+.wrapper-skills .content-skills .skills {
+  margin: 40px 0;
+}
+.content-skills .name-percentage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.content-skills .name-percentage h5 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+.content-skills .name-percentage span {
+  display: inline-block;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1em;
+}
+.wrapper-skills .box-skills .percentage .track-percentage {
+  width: 100%;
+  height: 8px;
+  background-color: #0e0f10;
+  margin-top: 8px;
+  border-radius: 10px;
+}
+.wrapper-skills .box-skills .percentage .bar-percentage {
+  height: 100%;
+  background-color: #25ca7f;
+  border-radius: 10px;
+  position: relative;
+}
+.wrapper-skills .box-skills .percentage .bar-percentage:after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -5px;
+  right: -2px;
+  background-color: #000;
+  border: 4px solid #25ca7f;
+  border-radius: 50%;
+}
+.position-number-html {
+  position: absolute;
+  right: 0;
+}
+.position-number-css3 {
+  position: absolute;
+  right: 12%;
+}
+.position-number-javascript {
+  position: absolute;
+  right: 7%;
+}
+.position-number-ui-ux {
+  position: absolute;
+  right: 20%;
+}
+.percentage-html {
+  width: 98%;
+}
+.percentage-css3 {
+  width: 85%;
+}
+.percentage-javacript {
+  width: 90%;
+}
+.percentage-ui-ux {
+  width: 77%;
+}
+.wrapper-skills .more-skills {
+  display: flex;
+  margin: 30px 0;
+}
+.wrapper-skills .more-skills .chart {
+  position: relative;
+}
+.wrapper-skills .more-skills .chart .content-more-skills {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.more-skills .chart .content-more-skills .number-more-skills {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.more-skills .chart .content-more-skills .name-more-skills {
+  font-weight: 700;
+}
+.wrapper-working-progress {
+  margin-top: 100px;
+  padding-bottom: 150px;
+}
+.wrapper-working-progress .box-working-progress {
+  margin-top: 50px;
+  padding: 40px;
+  background-color: #070708;
+}
+.box-working-progress .content-box-working-progress .number-step {
+  color: #25ca7f;
+  font-size: 1.3em;
+  text-align: right;
+}
+.box-working-progress .content-box-working-progress .title-step {
+  color: #fff;
+  text-align: right;
+  font-weight: 600;
+  font-size: 1.3em;
+  margin: 10px 0;
+}
+.box-working-progress .content-box-working-progress .content-step {
+  color: #eee;
+  text-align: right;
+  font-weight: 400;
+}
+.box-working-progress .working-step {
+  margin-bottom: 50px;
+}
+.box-working-progress .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-working-progress .circle .circle-working-progress {
+  width: 300px;
+  height: 300px;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: transparent;
+  border-radius: 50%;
+  position: relative;
+}
+.box-working-progress .circle .circle-working-progress .circle1 {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+}
+.box-working-progress .circle .circle-working-progress .circle2 {
+  width: 90%;
+  height: 90%;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box-working-progress .circle .circle-working-progress .circle2 p {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: 2.5em;
+}
+.box-working-progress
+  .content-box-working-progress
+  .number-step.text-align-left {
+  text-align: left;
+}
+.box-working-progress
+  .content-box-working-progress
+  .title-step.text-align-left {
+  text-align: left;
+}
+.box-working-progress
+  .content-box-working-progress
+  .content-step.text-align-left {
+  text-align: left;
+}
+@media (min-width: 300px) and (max-width: 770px) {
+  .box-resume .experience {
+    margin-top: 50px;
+  }
+  .wrapper-skills .more-skills {
+    justify-content: center;
+  }
+  .box-working-progress .content-box-working-progress .number-step {
+    text-align: left;
+  }
+  .box-working-progress .content-box-working-progress .title-step {
+    text-align: left;
+  }
+  .box-working-progress .content-box-working-progress .content-step {
+    text-align: left;
+  }
+}
+@media (min-width: 767px) and (max-width: 1090px) {
+  .box-working-progress .circle .circle-working-progress {
+    width: 200px;
+    height: 200px;
+  }
+  .box-working-progress .circle .circle-working-progress .circle2 p {
+    font-size: 1.5em;
+  }
+}

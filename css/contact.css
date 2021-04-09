@@ -1,0 +1,113 @@
+.wrapper-contact {
+  position: relative;
+  top: 60px;
+  background-color: #0e0f10;
+  padding-bottom: 80px;
+}
+#contact h2 {
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2em;
+}
+#contact h2:after {
+  content: "";
+  display: block;
+  width: 6%;
+  height: 1px;
+  background-color: #25ca7f;
+  margin: 15px auto 0;
+}
+.box-contact {
+  margin-top: 100px;
+}
+.box-contact .box-form {
+  padding: 40px 20px;
+  background-color: #070708;
+  border-radius: 10px;
+}
+.box-contact form .form-input {
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 15px 0;
+  color: #ddd;
+  transition: 0.3s;
+  font-family: Poppins, sans-serif;
+}
+.box-contact form .form-input:focus {
+  border-bottom: 1px solid #25ca7f;
+}
+.box-contact form .form-input::placeholder {
+  color: #fff;
+}
+.box-contact form textarea {
+  display: block;
+  width: 100%;
+  margin: 50px 0 30px;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  outline: 0;
+  color: #ddd;
+  font-family: Poppins, sans-serif;
+}
+.box-contact form textarea:focus {
+  border-bottom: 1px solid #25ca7f;
+}
+.box-contact form textarea::placeholder {
+  color: #fff;
+}
+.box-contact form input[type="submit"] {
+  display: block;
+  margin: 10px auto 10px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #25ca7f;
+  font-size: 1.2em;
+  transition: 0.3s;
+}
+.box-contact form input[type="submit"]:hover {
+  color: #25ca7f;
+}
+.box-address {
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #070708;
+  margin-top: 80px;
+}
+.box-address .content-address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-address .content-address p {
+  color: #fff;
+}
+.box-address .content-address p i {
+  font-size: 2em;
+}
+.box-address .content-address span {
+  color: #495057;
+}
+.box-map {
+  margin-top: 80px;
+  padding-bottom: 80px;
+}
+.box-map div img {
+  border-radius: 10px;
+}
+@media (min-width: 300px) and (max-width: 770px) {
+  .box-contact form .form-input {
+    margin-top: 30px;
+  }
+  .box-address .content-address {
+    margin-top: 50px;
+  }
+}
